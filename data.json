@@ -2,36 +2,6 @@
   "shader": "RTUShader-v4.2.zip",
   "versions": [
     {
-      "name": "1.20",
-      "status": 2,
-      "profiles": [
-        {
-          "name": "optimize",
-          "displayName": "최적화",
-          "status": 0,
-          "default": true
-        },
-        {
-          "name": "utility",
-          "displayName": "유틸리티",
-          "status": 0,
-          "default": true
-        },
-        {
-          "name": "quality",
-          "displayName": "퀄리티",
-          "status": 0,
-          "default": true
-        },
-        {
-          "name": "extra",
-          "displayName": "엑스트라",
-          "status": 2,
-          "default": true
-        }
-      ]
-    },
-    {
       "name": "1.19.2",
       "status": 0,
       "profiles": [
@@ -63,6 +33,42 @@
     },
     {
       "name": "1.19.4",
+      "status": 0,
+      "profiles": [
+        {
+          "name": "optimize",
+          "displayName": "최적화",
+          "status": 0,
+          "default": true
+        },
+        {
+          "name": "utility",
+          "displayName": "유틸리티",
+          "status": 0,
+          "default": true
+        },
+        {
+          "name": "quality",
+          "displayName": "퀄리티",
+          "status": 0,
+          "default": true
+        },
+        {
+          "name": "cinematic",
+          "displayName": "시네마틱",
+          "status": 2,
+          "default": false
+        },
+        {
+          "name": "vr",
+          "displayName": "VR",
+          "status": 2,
+          "default": false
+        }
+      ]
+    },
+    {
+      "name": "1.20.1",
       "status": 0,
       "profiles": [
         {
